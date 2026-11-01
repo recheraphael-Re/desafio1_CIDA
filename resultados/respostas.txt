@@ -1,0 +1,32 @@
+Desafio 1 - CIDA
+Raphael Gouvêa Reche | RA 26164063
+a) Amostras 16 a 31 (16 observações).
+Amostra | RPM | Pressão combustível | Temperatura (°C) | Condição
+16 |  382 |  7.77 | 71.62 | 1
+17 |  560 | 11.73 | 70.77 | 1
+18 |  767 |  7.50 | 80.27 | 0
+19 |  838 |  4.16 | 88.78 | 1
+20 |  495 |  7.38 | 73.81 | 1
+21 | 1341 |  6.19 | 78.88 | 0
+22 | 1249 |  6.25 | 72.57 | 1
+23 |  699 |  7.33 | 87.12 | 0
+24 |  436 |  7.44 | 82.40 | 1
+25 |  885 |  6.35 | 81.45 | 1
+26 |  583 |  6.15 | 70.61 | 1
+27 |  773 |  6.89 | 68.24 | 1
+28 |  796 |  5.40 | 77.38 | 0
+29 |  591 |  7.86 | 66.67 | 1
+30 |  455 | 13.97 | 75.81 | 1
+31 | 1053 |  4.21 | 75.98 | 0
+b) Q1 = 71.4075; mediana = 75.8950; Q3 = 80.5650 °C.
+IQR = 9.1575; limites = [57.6713, 94.3012] °C.
+Outliers: [] (regra 1,5 IQR).
+c) Temperaturas acima de 90 °C: 0/16 = 0.00%.
+d) Mediana OK = 635 RPM; ruim = 845 RPM. Diferença = 210 RPM.
+Observa-se rotação maior no grupo ruim, mas com sobreposição das caixas.
+Não se determina causalidade nem diagnóstico apenas pela rotação.
+Sem extremos globais, representam-se apenas caixas e medianas.
+e) Média +/- desvio: [510.86, 1032.72] RPM.
+A cobertura de aproximadamente 68% pressupõe distribuição aproximadamente normal.
+f) 50% centrais: [589.00, 868.25] RPM.
+O intervalo interquartil descreve os 50% centrais; não necessariamente os mais prováveis.
